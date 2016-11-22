@@ -1,4 +1,3 @@
-
 # custom colors section 
 
 txtblk='\e[0;30m' # Black - Regular
