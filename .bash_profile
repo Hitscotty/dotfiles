@@ -1,1 +1,0 @@
-/Users/Scotty/.bash/.bash_profile
