@@ -76,7 +76,7 @@ alias emacs="emacs-24.5 -nw"
 
 # customize my terminal here
 export USER="Scotty"
-export PS1="\W\ λ> "
+export PS1="\W\ \e[1;34mλ> \e[0m"
 
 #place where I put my alias's
 alias shots='cd ~/Documents/Screenshots/'
