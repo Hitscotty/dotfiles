@@ -4,6 +4,8 @@ filetype plugin indent on
 set number
 colorscheme molokai
 
+au BufRead,BufNewFile *.ejs setfiletype html
+
 " Tab specific option
 set tabstop=8                   "A tab is 8 spaces
 set expandtab                   "Always uses spaces instead of tabs
