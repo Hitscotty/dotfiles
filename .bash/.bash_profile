@@ -97,14 +97,18 @@ print_before_the_prompt () {
     printf "\n$txtred%s: $txtgrn%s  $txtylw%s \n$txtrst" "$USER" "$PWD" "$(prompt_git)"
 }
 
+# customize my terminal here
+
 PROMPT_COMMAND=print_before_the_prompt
+
+export USER="Scotty"
+export PS1="\W\ \e[1;34mλ> \e[0m"
+
 
 # added fer Java
 JAVA_HOME=/home/username/jdk1.6.0_23
 PATH=$JAVA_HOME/bin:$PATH
 CLASSPATH=$JAVA_HOME/lib:.
-
-
 
 export PATH=~/bin:$PATH
 # Setting PATH for Python 3.5
@@ -122,14 +126,8 @@ export PATH
 PYTHONPATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
 export PYTHONPATH
 
-# emacs
-alias emacs="emacs-24.5 -nw"
-
-# customize my terminal here
-export USER="Scotty"
-export PS1="\W\ \e[1;34mλ> \e[0m"
-
 #place where I put my alias's
+alias emacs="emacs-24.5 -nw"
 alias shots='cd ~/Documents/Screenshots/'
 alias resume='cd ~/Documents/Resumes'
 alias down='cd ~/Downloads'
